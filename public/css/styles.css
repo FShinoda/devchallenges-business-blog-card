@@ -554,27 +554,13 @@ video {
   --tw-contain-style:  ;
 }
 
-.flex {
-  display: flex;
+.text-light-grey {
+  color: var(--light-grey);
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-\[280px\] {
-  height: 280px;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.bg-slate-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+:root {
+  --light-grey: #F2F5F9;
+  --pure-white: #FFF;
+  --almost-black: #111729;
+  --dark-grey: #677489;
 }

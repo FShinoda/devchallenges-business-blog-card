@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --light-grey: #F2F5F9;
+    --pure-white: #FFF;
+    --almost-black: #111729;
+    --dark-grey: #677489;
+}

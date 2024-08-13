@@ -4,7 +4,14 @@ module.exports = {
     "./index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "light-grey" : "var(--light-grey)",
+        "pure-white" : "var(--pure-white)",
+        "almost-black" : "var(--almost-black",
+        "dark-grey" : "var(--dark-grey)"
+      }
+    },
   },
   plugins: [],
 }
